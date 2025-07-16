@@ -39,6 +39,8 @@ nav a[aria-current='page'] {
   background-color: #b5d99c;
   border: solid 1px #b5d99c;
   border-radius: 0.6rem;
+  font-family: ;
+}
 
 main {
   padding: 1rem;
