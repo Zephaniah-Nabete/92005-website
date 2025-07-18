@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'kinetika';
+  src: url('kinetika-bold-italic.ttf');
+}
+
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  /* font-family: system-ui, sans-serif; */
   color: black;
   background-color: white;
+  font-family: 'kinetika';
 }
 
 nav {
@@ -27,10 +33,6 @@ nav a {
   text-align: center;
   text-decoration:none;
   color: #b5d99c;
-  @font-face {
-    font-family: ;
-    src: url();
-  }face:
   
 }
 
@@ -39,7 +41,6 @@ nav a[aria-current='page'] {
   background-color: #b5d99c;
   border: solid 1px #b5d99c;
   border-radius: 0.6rem;
-  font-family: ;
 }
 
 main {
@@ -49,4 +50,5 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
 }
