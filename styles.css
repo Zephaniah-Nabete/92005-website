@@ -21,15 +21,15 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
+  padding: 1.2rem;
+  gap: 1.2rem;
+  border-bottom: solid 0px #aaa;
   background-color: #575563;;
 }
 
 nav a {
   display: inline-block;
-  min-width: 9rem;
+  min-width: 11rem;
   padding: 0.5rem;
   text-align: center;
   text-decoration:none;
@@ -53,15 +53,47 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+
+  display:flex;
+
+  padding: 48px;
+
+  justify-content: space-evenly;
+  gap: 48px;
+  
 }
 
-h1 span{
+.left-container{
+  flex:  1;
+}
+
+.right-container{
+  flex: 1.5;
+  display: flex;
+}
+
+.hero-image{
+  flex: 1;
+}
+
+.background-shape{
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  z-index: -1;
+  height:100%;
+}
+
+
+h1{
   font-weight: bold;
   font-size: 1.5rem;
   text-align: left;
   color: #b5d99c;
-  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) ;
-  font-size: 40px;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) ;
+  font-size: 60px;
+
+  margin-bottom: 50px;
 }
 
 button{
@@ -70,11 +102,13 @@ button{
   color: #b5d99c;
   padding: 15px 32px;
   text-align: center;
-  font-size: 23px;
+  font-size: 40px;
   font-family: "kinetika";
-  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) ;
-  border-radius: 2rem;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) ;
+  border-radius: 3rem;
   transition-duration: 0.3s;
+
+  margin-top: 50px;
 
 }
 
@@ -82,4 +116,15 @@ button:hover{
   background-color: #b5d99c;
   color: #575563;
   box-shadow: 5px 10px 9px rgba(0, 0, 0, 0.36);
+}
+h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #b5d99c;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) ;
+  font-size: 50px;
+
+  margin-bottom: 50px;
+
 }
