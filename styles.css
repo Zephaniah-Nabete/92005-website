@@ -24,7 +24,7 @@ nav {
   padding: 1.2rem;
   gap: 1.2rem;
   border-bottom: solid 0px #aaa;
-  background-color: #575563;;
+  background-color: #575563;
 }
 
 nav a {
@@ -90,8 +90,9 @@ main {
 .background-shape{
   position: absolute;
   top: 0px;
-  left: -2px;
+  left: -30px;
   z-index: -1;
+  width: max(50vw, 600px);
   height:100%;
 }
 
@@ -134,7 +135,7 @@ h2{
   text-align: left;
   color: #b5d99c;
   text-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) ;
-  font-size: 60px;
+  font-size: 50px;
 
   margin-bottom: 50px;
 
