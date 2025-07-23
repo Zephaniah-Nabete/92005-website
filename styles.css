@@ -148,3 +148,13 @@ h3{
   
 
 }
+
+.comparison-link{
+  display: block;
+}
+
+@media (max-width: 600px){
+  main{
+    flex-direction: column;
+  }
+}
