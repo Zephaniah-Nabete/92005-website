@@ -56,10 +56,10 @@ main {
 
   display:flex;
 
-  padding: 48px;
+  padding: 36px;
 
   justify-content: space-evenly;
-  gap: 48px;
+  gap: 64px;
   
 }
 
@@ -68,8 +68,19 @@ main {
 }
 
 .right-container{
-  flex: 1.5;
+  flex: 2;
   display: flex;
+  gap: 64px;
+  padding: 0 100px;
+}
+
+.comparison-container{
+  flex: 1;
+}
+
+.comparison-container img{
+  width: 100%;
+  height: auto;
 }
 
 .hero-image{
@@ -123,8 +134,16 @@ h2{
   text-align: left;
   color: #b5d99c;
   text-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) ;
-  font-size: 50px;
+  font-size: 60px;
 
   margin-bottom: 50px;
+
+
+}
+h3{
+  text-align: center;
+  font-size: 25px;
+  color: #92a884;
+  
 
 }
