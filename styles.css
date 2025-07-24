@@ -53,11 +53,9 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 1rem;
+  padding: 2rem;
 
   display:flex;
-
-  padding: 36px;
 
   justify-content: space-evenly;
   gap: 64px;
@@ -177,9 +175,10 @@ h3{
   flex: 1;
   border-radius: 20%;
   aspect-ratio: 1/1;
-  padding: 50px;
+  /* padding: 50px; */
   text-align: center;
   overflow: hidden;
+
 }
 
 .round-box h1{
@@ -188,20 +187,20 @@ h3{
 
 .round-image{
   background-image: url(lawn_mower.png) ;
-  background-size: 100%;
+  background-size: cover;
 
   flex: 1;
   border-radius: 20%;
-  aspect-ratio: 1/1;
   height: auto;
   text-align: center;
-  display: inline-block;
+  
 }
 
 p{
   text-align: center;
   color: #b5d99c;
-  font-size: 18px;
+  font-size: 30.67px;
+  padding: 20px;
 
 }
 
