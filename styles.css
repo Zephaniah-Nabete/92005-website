@@ -53,7 +53,7 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 2rem;
+  padding: min(2rem, 2%);
 
   display:flex;
 
@@ -191,22 +191,36 @@ h3{
 
   flex: 1;
   border-radius: 20%;
-  height: auto;
-  text-align: center;
+  aspect-ratio: 1/1;
+  
   
 }
 
 p{
   text-align: center;
   color: #b5d99c;
-  font-size: 30.67px;
+  font-size: clamp(0.5rem, 2.4vw, 3rem);
   padding: 20px;
 
 }
 
-@media (max-width: 600px){
+@media only screen and (max-width: 1067px){
+  h1{
+    margin-bottom: 1px;
+    line-height: 1;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1067px){
   main{
     flex-direction: column;
   }
+
+  p{
+    font-size: 6vw;
+   
+  }
+
 }
 
